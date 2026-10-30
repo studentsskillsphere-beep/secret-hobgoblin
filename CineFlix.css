@@ -1,0 +1,1197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black;
+
+}
+a{
+    text-decoration: none black;
+    /* background-color: black; */
+    color: white;
+}
+#div{
+    height: 70px;
+    width: 150px;
+    background-image: url(image.png);
+    background-size: cover;
+}
+#div1{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+}
+
+
+@media(max-width:500px){
+    #div1{
+        height: 50px;
+        width: 1000px;
+    }
+}
+#search{
+    height: 30px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    font-size: 20px;
+}
+#i1 {
+    font-size: 20px;
+    margin-left:50px;
+    color: white;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+#div2 {
+    display: flex;
+    align-items: center;
+}
+#div3 {
+    text-align: center;
+    height:800px;
+    width: 1440px;
+    background-image: url(png.png);
+    background-size: cover;
+    background-color: blue;
+    transition: all 5s linear;
+    
+}
+#div3:hover{
+    transform: translate(30px);
+}
+#div3 {
+    position: relative;
+}
+#div4 {
+    height: 3000px;
+    width: 2000px;
+    color: white;
+    position: absolute ;
+    top: 480px;
+    left: 30px;
+    transition: all 4s linear;
+}
+#div4:hover{
+    transform: translate(30px);
+}
+.get {
+    font-size: 24px;
+}
+#button {
+    margin-left: 57px;
+    min-height: 46px;
+    min-width: 160px;
+    padding: 0 20px;
+    color: #17120a;
+    background: linear-gradient(135deg, #ff9b42, #f47721);
+    border: 1px solid rgba(255, 214, 160, 0.8);
+    border-radius: 7px;
+    box-shadow: 0 5px 18px rgba(244, 119, 33, 0.3);
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+#button:hover {
+    background: linear-gradient(135deg, #ffb15f, #ff8732);
+    transform: translateY(-2px);
+    box-shadow: 0 7px 22px rgba(244, 119, 33, 0.42);
+}
+#india {
+    margin-left:57px;
+}
+#movie{
+    color: white;
+    font-size: 40px;
+}
+#view{
+    font-size: 20px;
+    color: orangered;
+}
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100vw - 60px);
+    flex: 0 0 calc(100vw - 60px);
+    padding: 0 40px;
+}
+#div5{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.box:hover{
+    transform: scale(1.06);
+    transition: all 0.2s linear;
+    z-index: 2;
+    box-shadow: 0 0 50px yellow;
+    
+}
+/* #box1:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+} */
+/* 
+.box {
+    display: inline-block;
+    width: 250px;
+    height: 370px;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+/* .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+} */
+
+/* .box:hover {
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+    box-shadow: 0 0 50px yellow;
+} */ 
+
+#box1{
+    background-color:red;
+    height: 370px;
+    width: 250px;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-image: url(dhamal.png);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+.box,
+.box1,
+.box2 {
+    display: block;
+    cursor: pointer;
+}
+#box1:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+
+#box2{
+    background-color:red;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Dhurandhar\ .png);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#box2:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#box3{
+    background-color:blueviolet;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZRneIxpbeLT6fYO_m4PuvggP6W8o2W0_IMqmbXIMHNA&s=10);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#box3:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+
+#box4{
+    background-color:brown;
+    height: 370px;
+    width: 255px;
+    border-radius: 5px;
+    background-image: url(Phir\ Hera\ Pheri.png);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#box4:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+
+#box5{
+    background-color:burlywood;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://image.tmdb.org/t/p/original/z18DWXBRxn3kz00sIVhC7ZK39Qm.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#box5:hover{
+    transform: scale(1.06);
+    transition: all 0.2s linear;
+    z-index: 2;
+    
+}
+#box6{
+    background-color: teal;
+    height: 370px;
+    width: 255px;
+    border-radius: 5px;
+    margin-left: 35px;
+    background-image: url(Awarapan\ 2.png);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#box6:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#box7{
+    background-color: royalblue;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Animal.png);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#box7:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#box8{
+    background-color: tan;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Bhoot\ Bangla\ .png);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#box8:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#box9{
+    background-color:yellowgreen;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(targeted-image.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#box9:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#box01{
+    background-color: indianred;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Romantic\ Melodies.png);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;   
+}
+#box01:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+
+#div6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+#anime{
+    font-size: 40px;
+}
+#view1{
+    font-size: 20px;
+    color: orangered;
+}
+.box1:hover{
+    transform: scale(1.06);
+    transition: all 0.2s linear;
+    z-index: 2;
+    box-shadow: 0 0 50px yellow;
+}
+#a{
+    background-color: yellow;
+    height: 370px;
+    width: 250px;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-image: url(Chainsaw_Man.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#a:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#b{
+    background-color:red;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Naruto.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#b:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#c{
+    background-color:blueviolet;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Attack_on_Titan.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#c:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#d{
+    background-color:brown;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Demon_Slayer.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#d:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#e{
+    background-color:burlywood;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(One_Piece.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#e:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#f{
+    background-color: teal;
+    height: 370px;
+    width: 255px;
+    border-radius: 5px;
+    margin-left: 35px;
+    background-image: url(Seven_Deadly_Sins.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#f:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#g{
+    background-color: royalblue;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Bleach.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#g:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#h{
+    background-color: tan;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Jujutsu_Kaisen.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#h:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#i{
+    background-color:yellowgreen;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Death_Note.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#i:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#j{
+    background-color: indianred;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(Dragon_Ball_Z.jpg);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#j:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#div7{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+#webseries{
+    font-size: 40px;
+}
+#view2{
+    font-size: 20px;
+    color: orangered;
+}
+.box2:hover{
+    transform: scale(1.06);
+    transition: all 0.2s linear;
+    z-index: 2;
+    box-shadow: 0 0 50px yellow;
+}
+#a1{
+    background-color: yellow;
+    height: 370px;
+    width: 250px;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/7/7b/Squid_Game_season_1_poster.png);
+    background-size: cover;
+    transition: all 0.1s linear;
+    z-index: 2;
+    
+}
+#a1:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#a2{
+    background-color:red;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/5/5e/Crash_Landing_on_You_poster.png);
+    background-size: cover;
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#box10:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#a3{
+    background-color:blueviolet;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/24/All_of_Us_Are_Dead.jpeg);
+    background-size: cover;
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#box10:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#a4{
+    background-color:brown;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/7/79/The_Glory_TV_series.jpg);
+    background-size: cover;
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#box10:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#a5{
+    background-color:burlywood;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/5/5b/Vincenzo_TV_series.jpg);
+    background-size: cover;   
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#box10:hover{
+    transition: all 1s linear;
+    transform: scale(1.06);
+}
+#a6{
+    background-color: teal;
+    height: 370px;
+    width: 255px;
+    border-radius: 5px;
+    margin-left: 35px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/9/99/Itaewon_Class.jpg);
+    background-size: cover;
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#box10:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#a7{
+    background-color: royalblue;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/6/6a/Sacred_Games.jpg);
+    background-size: cover;
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#box10:hover{
+    transition: all 0.1s linear;
+    transform: scale(1.06);
+}
+#a8{
+    background-color: tan;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/3/3c/Hidden_Love_2023_TV_series.jpg);
+    background-size: cover;
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#box10:hover{
+    transition: all 1s linear;
+    transform: scale(1.06);
+}
+#a9{
+    background-color:yellowgreen;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://image.tmdb.org/t/p/original/xrfvAhrMdT6Uwg5fyTyQAZBYyiu.jpg);
+    background-size: cover;
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#box10:hover{
+    transition: all 1s linear;
+    transform: scale(1.06);
+}
+#new{
+    background-color: indianred;
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/id/2/25/Sweet_Home_poster.jpg  );
+    background-size: cover;
+    transition: all 0.s linear;
+    z-index: 2;
+    
+}
+#new:hover{
+    transition: all 1s linear;
+    transform: scale(1.06);
+}
+#back{
+    min-height: 268px;
+    width: 100vw;
+    margin: 30px 0 0;
+    padding: 40px 20px;
+    color: #fff;
+    background: radial-gradient(ellipse at 25% 50%, #3a1d0c 0%, #1b100b 42%, #090909 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#back h2{
+    margin: 0;
+    font-size: clamp(24px, 3vw, 36px);
+    font-weight: 700;
+}
+#back p{
+    margin: 0 0 14px;
+    color: #c8c8c8;
+    font-size: 16px;
+}
+#back .back-button{
+    display: inline-flex;
+    min-width: 136px;
+    min-height: 46px;
+    padding: 0 24px;
+    justify-content: center;
+    align-items: center;
+    background: #f47721;
+    color: #111;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+#back .back-button:hover{
+    background: #ff913f;
+    transform: translateY(-2px);
+}
+#div8{
+    background-color: #161616;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-credit {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 96px;
+    margin: 0;
+    padding: 18px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #343434;
+    background: linear-gradient(110deg, #111 0%, #18110e 50%, #111 100%);
+    box-shadow: 0 -6px 22px rgba(244, 119, 33, 0.16);
+    color: #f47721;
+    font-family: "Arial Black", "Trebuchet MS", sans-serif;
+    font-size: clamp(23px, 3.2vw, 34px);
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    text-shadow: 0 0 8px rgba(244, 119, 33, 0.65), 0 0 20px rgba(244, 119, 33, 0.3);
+    text-align: center;
+}
+#icon{
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+#div9{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 150px;
+    justify-content: space-evenly;
+}
+.na{
+    font-size: 20px;
+}
+.an{
+    font-size: 19px;
+    color: #A0A0A0; 
+}
+#n3{
+    font-size: 19px;
+    color: #A0A0A0; 
+}
+ /* #n2{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 4000px;
+    right: 1100px;
+} */
+#div10{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 265px;
+}
+#div11{
+    height: auto;
+    min-height: 280px;
+    min-width: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-top: 8px;
+}
+#div11 .na {
+    margin-bottom: 2px;
+}
+#div11 .an {
+    font-size: 17px;
+    transition: color 0.2s ease;
+}
+#div11 .an:hover {
+    color: #f47721;
+}
+#div12{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#image{
+    height: 70px;
+    width: 140px;
+    margin-left: 60px;
+    background-image: url("./image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#div13{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive layout */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1100px) {
+    #div1 {
+        width: 100%;
+        padding: 0 16px;
+        gap: 12px;
+    }
+
+    #search {
+        width: min(28vw, 300px);
+    }
+
+    #i1 {
+        margin-left: 14px;
+    }
+
+    #div3 {
+        width: 100%;
+        height: min(65vw, 700px);
+        min-height: 380px;
+        background-position: center;
+    }
+
+    #div4 {
+        width: 100%;
+        height: auto;
+    }
+
+    #view,
+    #view1,
+    #view2 {
+        left: auto;
+        right: 24px;
+    }
+
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box01,
+    #a, #b, #c, #d, #e, #f, #g, #h, #i, #j,
+    #a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10 {
+        width: clamp(150px, 21vw, 220px);
+        height: clamp(230px, 31vw, 320px);
+        margin-left: 0;
+    }
+
+    #div8 {
+        width: 100%;
+        height: auto;
+        min-height: 420px;
+        padding: 24px;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    #image {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    /* Show the complete logo and poster artwork on narrow screens. */
+    #div,
+    #image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .box,
+    .box1,
+    .box2 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #111;
+    }
+
+    #div1 {
+        position: sticky;
+        height: auto;
+        min-height: 58px;
+        padding: 6px 12px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    #div {
+        width: 105px;
+        height: 48px;
+        flex: 0 0 auto;
+    }
+
+    .one {
+        display: none;
+    }
+
+    #div2 {
+        flex: 1 1 100%;
+        min-width: 0;
+        order: 2;
+        padding-bottom: 5px;
+    }
+
+    #search {
+        width: auto;
+        min-width: 0;
+        height: 34px;
+        flex: 1;
+    }
+
+    #i1 {
+        margin-left: 12px;
+        font-size: 18px;
+    }
+
+    #div3 {
+        height: 58vw;
+        min-height: 260px;
+        max-height: 440px;
+        background-position: center;
+    }
+
+    /* Keep the promo copy over the hero, then return the catalogue to normal flow. */
+    #div4 {
+        position: relative;
+        top: auto;
+        left: auto;
+        height: auto;
+        min-height: 0;
+        margin-top: -145px;
+        padding: 0 18px;
+        z-index: 3;
+    }
+
+    #div4 > #movie,
+    #div4 > #view,
+    #div4 > #anime,
+    #div4 > #view1,
+    #div4 > #webseries,
+    #div4 > #view2,
+    #div4 > #div5,
+    #div4 > #div6,
+    #div4 > #div7,
+    #div4 > #back,
+    #div4 > #div8 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+    }
+
+    #button,
+    #india {
+        margin-left: 0;
+    }
+
+    .get {
+        font-size: 17px;
+    }
+
+    #div5 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: start;
+        width: 100%;
+        margin-top: 48px;
+        padding: 0 14px;
+        gap: 14px;
+        position: relative;
+    }
+
+    /* The <br> after "View all" was forcing the first movie onto its own row. */
+    #div5 > br {
+        display: none;
+    }
+
+    .section-heading {
+        grid-column: 1 / -1;
+        width: 100%;
+        flex-basis: 100%;
+        padding: 0;
+        margin: 0 0 4px;
+    }
+
+    #movie,
+    #anime,
+    #webseries {
+        display: block;
+        margin: 0;
+        font-size: 27px;
+        line-height: 1.2;
+    }
+
+    #view,
+    #view1,
+    #view2 {
+        position: static;
+        font-size: 16px;
+    }
+
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box01,
+    #a, #b, #c, #d, #e, #f, #g, #h, #i, #j,
+    #a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 0.74;
+        max-height: 300px;
+    }
+
+    #div6,
+    #div7 {
+        width: 100%;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: start;
+        gap: 14px;
+        grid-column: 1 / -1;
+    }
+
+    #div6 {
+        padding: 0;
+        position: relative;
+    }
+
+    #div7 {
+        padding: 0;
+    }
+
+    #back {
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    #div8 {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        position: relative;
+        gap: 24px;
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        padding: 28px 20px;
+    }
+
+    #div8 > br {
+        display: none;
+    }
+
+    #image {
+        display: block;
+        flex: 0 0 auto;
+        width: 105px;
+        height: 48px;
+        margin: 0;
+        align-self: flex-start;
+        background-image: url("./image.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #div9,
+    #div10,
+    #div11,
+    #div12,
+    #div13 {
+        width: auto;
+        height: auto;
+        min-width: 0;
+        gap: 12px;
+    }
+
+    #div9 {
+        width: 100%;
+        max-width: 520px;
+        line-height: 1.5;
+    }
+
+    #div10,
+    #div11,
+    #div12,
+    #div13 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #div9 br {
+        display: none;
+    }
+
+    #icon {
+        height: auto;
+        width: 100%;
+        gap: 12px;
+        justify-content: flex-start;
+    }
+
+    .na {
+        font-size: 17px;
+    }
+
+    .an,
+    #n3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    #div5 {
+        padding: 0 10px;
+        gap: 10px;
+    }
+
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box01,
+    #a, #b, #c, #d, #e, #f, #g, #h, #i, #j,
+    #a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10 {
+        width: calc((100vw - 30px) / 2);
+        flex-basis: calc((100vw - 30px) / 2);
+    }
+
+}
+
+
+
+
